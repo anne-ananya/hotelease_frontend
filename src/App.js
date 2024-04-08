@@ -11,7 +11,6 @@ import Schedule from "./pages/schedule.js"
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import {
   Home,
-  Booking,
   AboutUs,
   Contact,
   PageNotFound,
@@ -24,11 +23,12 @@ import Dashboard from "./pages/user/dashboard.js"
 import BookRoom from "./pages/user/bookroom.js";
 import BookResturant from "./pages/user/bookresturant.js";
 import Footer from "./components/common/Footer";
+
 export default function App() {
   return (
     <>
       <div>
-        <Router>
+        <BrowserRouter>
           <Header />
           <Routes>
             <Route path="/" element={<Home />} />
@@ -39,15 +39,15 @@ export default function App() {
             <Route path="/rooms" element={<Room />} />
             <Route path="/services" element={<Services />} />
             <Route path="/user/login" element={<Login />} />
-        <Route path="/user/dashboard" element={<Dashboard />} />
-        <Route path="/user/bookroom" element={<BookRoom />} />
-        <Route path="/user/bookrestaurant" element={<BookResturant />} />
-        <Route path="/admin" element={<Admin />} />
-        <Route path="/restaurant" element={<Restaurant />} />
-        <Route path="/restaurant/schedule" element={<Schedule />} />
+            <Route path="/user/dashboard" element={<Dashboard />} />
+            <Route path="/user/bookroom" element={<BookRoom />} />
+            <Route path="/user/bookrestaurant" element={<BookResturant />} />
+            <Route path="/admin" element={<Admin />} />
+            <Route path="/restaurant" element={<Restaurant />} />
+            <Route path="/restaurant/schedule" element={<Schedule />} />
           </Routes>
           <Footer />
-        </Router>
+        </BrowserRouter>
       </div>
     </>
   );
