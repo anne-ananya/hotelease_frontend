@@ -35,7 +35,7 @@ export default function Contact() {
             <div class="col-md-6 wow fadeIn" data-wow-delay="0.1s"  style={{ paddingBottom: "100px" }}>
               <iframe
                 class="position-relative rounded w-100 h-100"
-                src="https://www.google.com/maps/place/Indian+Institute+of+Engineering+Science+and+Technology,+Shibpur+(IIEST)/@22.555112,88.306164,15z/data=!4m6!3m5!1s0x3a0279c91a8d2d49:0xc6ee508c74cf031d!8m2!3d22.5551124!4d88.3061642!16zL20vMDRkcGRs?hl=en&entry=ttu"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3684.6411256339084!2d88.3061642!3d22.5551124!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0279c91a8d2d49%3A0xc6ee508c74cf031d!2sIndian%20Institute%20of%20Engineering%20Science%20and%20Technology%2C%20Shibpur!5e0!3m2!1sen!2sin!4v1688816758786!5m2!1sen!2sin"
                 frameborder="0"
                 style={{ minHeight: "350px", border: "0", zIndex: 1 }}
                 allowfullscreen=""
