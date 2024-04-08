@@ -8,7 +8,7 @@ import Admin from "./pages/Admin.jsx"
 import Header from "./components/common/Header";
 import Restaurant from "./pages/restaurant.js";
 import Schedule from "./pages/schedule.js"
-import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
+import { BrowserRouter,Routes, Route } from "react-router-dom";
 import {
   Home,
   AboutUs,
